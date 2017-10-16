@@ -38,6 +38,8 @@ GEM
     arel (6.0.4)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
+    bootstrap-sass (3.1.1.1)
+      sass (~> 3.2)
     builder (3.2.3)
     byebug (9.1.0)
     capybara (2.4.4)
@@ -89,6 +91,7 @@ GEM
     multi_xml (0.6.0)
     nokogiri (1.8.1)
       mini_portile2 (~> 2.3.0)
+    pg (0.18.1)
     phantomjs (1.9.8.0)
     poltergeist (1.6.0)
       capybara (~> 2.1)
@@ -180,12 +183,14 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass (~> 3.1.1.0)
   byebug
   capybara (~> 2.4.4)
   coffee-rails (~> 4.1.0)
   httparty
   jbuilder (~> 2.0)
   jquery-rails
+  pg
   phantomjs (~> 1.9.8.0)
   poltergeist (~> 1.6.0)
   rails (= 4.2.8)
